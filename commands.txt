@@ -7,7 +7,7 @@ sudo nmap -sC -sV -p- -T4 192.168.82.129
 --------Nikto-----
 sudo nikto -h http://
 
---------Gobuster-----
+-------Gobuster-----
 sudo gobuster dir -u http:/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt -x php,txt,html -t100
 
 -------Feroxbuster-----------
