@@ -1,0 +1,14 @@
+--- vmmon and vmnet installer ----
+https://www.how2shout.com/linux/install-vmware-workstation-player-on-ubuntu-22-04-lts/
+
+--------Nmap------
+sudo nmap -sC -sV -p- -T4 192.168.82.129
+
+--------Nikto-----
+sudo nikto -h http://
+
+--------Gobuster-----
+sudo gobuster dir -u http:/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt -x php,txt,html -t100
+
+-------Feroxbuster------------
+feroxbuster -u http:// -t 10 -L 10 -w /usr/share/wordlists/
