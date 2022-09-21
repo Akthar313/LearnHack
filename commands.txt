@@ -11,4 +11,4 @@ sudo nikto -h http://
 sudo gobuster dir -u http:/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt -x php,txt,html -t100
 
 -------Feroxbuster-----------
-feroxbuster -u http:// -t 10 -L 10 -w /usr/share/wordlists/
+feroxbuster -u http:// -t 10 -L 10 -w /usr/share/wordlists/ -o feroxOp.txt
